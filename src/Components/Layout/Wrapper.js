@@ -76,7 +76,10 @@ const Wrapper = props => {
             style={{ lineHeight: "64px" }}
           >
             <Menu.Item key="1" disabled={props.nav.disabled}>
-              Log In
+              <Link to="/">Log In</Link>
+            </Menu.Item>
+            <Menu.Item key="2" disabled={props.nav.disabled}>
+              <Link to="/register">Register</Link>
             </Menu.Item>
           </Menu>
         )}
