@@ -10,6 +10,7 @@ import AssignmentWrapper from "./Components/Assignment/Display/AssignmentWrapper
 import PredictionsLayout from "./Components/Prediction/PredictionsLayout";
 import Login from "./Components/InputForms/Login";
 import Register from "./Components/InputForms/Register";
+import RegistrationForm from "./Components/InputForms/Register2";
 import * as authActions from "./Store/Actions/authActions";
 
 const App = props => {
@@ -31,7 +32,7 @@ const App = props => {
             </Switch>
           ) : (
             <Switch>
-              <Route path="/register" exact component={Register} />
+              <Route path="/register" exact component={RegistrationForm} />
               <Route path="/" exact component={Login} />
             </Switch>
           )}
