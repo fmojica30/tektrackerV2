@@ -9,8 +9,7 @@ import NewTeacherForm from "./Components/InputForms/NewTeacherForm";
 import AssignmentWrapper from "./Components/Assignment/Display/AssignmentWrapper";
 import PredictionsLayout from "./Components/Prediction/PredictionsLayout";
 import Login from "./Components/InputForms/Login";
-import Register from "./Components/InputForms/Register";
-import RegistrationForm from "./Components/InputForms/Register2";
+import RegistrationForm from "./Components/InputForms/Register";
 import * as authActions from "./Store/Actions/authActions";
 
 const App = props => {
