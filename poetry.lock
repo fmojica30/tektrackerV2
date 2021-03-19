@@ -1,29 +1,29 @@
 [[package]]
-category = "main"
-description = "ASGI specs, helper code, and adapters"
 name = "asgiref"
+version = "3.2.3"
+description = "ASGI specs, helper code, and adapters"
+category = "main"
 optional = false
 python-versions = "*"
-version = "3.2.3"
 
 [package.extras]
 tests = ["pytest (>=4.3.0,<4.4.0)", "pytest-asyncio (>=0.10.0,<0.11.0)"]
 
 [[package]]
-category = "main"
-description = "Use Database URLs in your Django Application."
 name = "dj-database-url"
+version = "0.5.0"
+description = "Use Database URLs in your Django Application."
+category = "main"
 optional = false
 python-versions = "*"
-version = "0.5.0"
 
 [[package]]
-category = "main"
-description = "A high-level Python Web framework that encourages rapid development and clean, pragmatic design."
 name = "django"
+version = "3.0.4"
+description = "A high-level Python Web framework that encourages rapid development and clean, pragmatic design."
+category = "main"
 optional = false
 python-versions = ">=3.6"
-version = "3.0.4"
 
 [package.dependencies]
 asgiref = ">=3.2,<4.0"
@@ -35,12 +35,12 @@ argon2 = ["argon2-cffi (>=16.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
-category = "main"
-description = "This is a Django library for Heroku apps."
 name = "django-heroku"
+version = "0.3.1"
+description = "This is a Django library for Heroku apps."
+category = "main"
 optional = false
 python-versions = "*"
-version = "0.3.1"
 
 [package.dependencies]
 dj-database-url = ">=0.5.0"
@@ -49,26 +49,23 @@ psycopg2 = "*"
 whitenoise = "*"
 
 [[package]]
-category = "main"
-description = "Web APIs for Django, made easy."
 name = "djangorestframework"
+version = "3.11.2"
+description = "Web APIs for Django, made easy."
+category = "main"
 optional = false
 python-versions = ">=3.5"
-version = "3.11.0"
 
 [package.dependencies]
 django = ">=1.11"
 
 [[package]]
-category = "main"
-description = "WSGI HTTP Server for UNIX"
 name = "gunicorn"
+version = "20.0.4"
+description = "WSGI HTTP Server for UNIX"
+category = "main"
 optional = false
 python-versions = ">=3.4"
-version = "20.0.4"
-
-[package.dependencies]
-setuptools = ">=3.0"
 
 [package.extras]
 eventlet = ["eventlet (>=0.9.7)"]
@@ -77,54 +74,55 @@ setproctitle = ["setproctitle"]
 tornado = ["tornado (>=0.2)"]
 
 [[package]]
-category = "main"
-description = "psycopg2 - Python-PostgreSQL Database Adapter"
 name = "psycopg2"
+version = "2.8.4"
+description = "psycopg2 - Python-PostgreSQL Database Adapter"
+category = "main"
 optional = false
 python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*"
-version = "2.8.4"
 
 [[package]]
-category = "main"
-description = "Add .env support to your django/flask apps in development and deployments"
 name = "python-dotenv"
+version = "0.12.0"
+description = "Add .env support to your django/flask apps in development and deployments"
+category = "main"
 optional = false
 python-versions = "*"
-version = "0.12.0"
 
 [package.extras]
 cli = ["click (>=5.0)"]
 
 [[package]]
-category = "main"
-description = "World timezone definitions, modern and historical"
 name = "pytz"
+version = "2019.3"
+description = "World timezone definitions, modern and historical"
+category = "main"
 optional = false
 python-versions = "*"
-version = "2019.3"
 
 [[package]]
-category = "main"
-description = "Non-validating SQL parser"
 name = "sqlparse"
+version = "0.3.1"
+description = "Non-validating SQL parser"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-version = "0.3.1"
 
 [[package]]
-category = "main"
-description = "Radically simplified static file serving for WSGI applications"
 name = "whitenoise"
+version = "5.0.1"
+description = "Radically simplified static file serving for WSGI applications"
+category = "main"
 optional = false
 python-versions = ">=3.5, <4"
-version = "5.0.1"
 
 [package.extras]
 brotli = ["brotli"]
 
 [metadata]
-content-hash = "230ca046ff5a771ff54c27c29af567ed0c1db3178c13ff3afff20ffa7c5fe1ee"
+lock-version = "1.1"
 python-versions = "^3.8"
+content-hash = "4baa3f0a16492ea72d8ecfc1d67ea4305289bbce56061bcad8c3d5265599a7a8"
 
 [metadata.files]
 asgiref = [
@@ -144,8 +142,8 @@ django-heroku = [
     {file = "django_heroku-0.3.1-py2.py3-none-any.whl", hash = "sha256:2bc690aab89eedbe01311752320a9a12e7548e3b0ed102681acc5736a41a4762"},
 ]
 djangorestframework = [
-    {file = "djangorestframework-3.11.0-py3-none-any.whl", hash = "sha256:05809fc66e1c997fd9a32ea5730d9f4ba28b109b9da71fccfa5ff241201fd0a4"},
-    {file = "djangorestframework-3.11.0.tar.gz", hash = "sha256:e782087823c47a26826ee5b6fa0c542968219263fb3976ec3c31edab23a4001f"},
+    {file = "djangorestframework-3.11.2-py3-none-any.whl", hash = "sha256:5cc724dc4b076463497837269107e1995b1fbc917468d1b92d188fd1af9ea789"},
+    {file = "djangorestframework-3.11.2.tar.gz", hash = "sha256:a5967b68a04e0d97d10f4df228e30f5a2d82ba63b9d03e1759f84993b7bf1b53"},
 ]
 gunicorn = [
     {file = "gunicorn-20.0.4-py2.py3-none-any.whl", hash = "sha256:cd4a810dd51bf497552cf3f863b575dabd73d6ad6a91075b65936b151cbf4f9c"},
